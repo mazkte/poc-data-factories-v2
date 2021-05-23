@@ -1,0 +1,22 @@
+{
+	"name": "Products",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sidex_sftp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "SftpLocation",
+				"folderPath": "/incoming/suggested-product"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
