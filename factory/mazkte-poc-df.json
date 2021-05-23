@@ -1,0 +1,9 @@
+{
+	"name": "mazkte-poc-df",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b4428a07-d9d7-43aa-98f7-dd5ae9ca9edc",
+		"tenantId": "3daa5ce3-15ad-4132-89ba-caeca1b6734c"
+	}
+}
